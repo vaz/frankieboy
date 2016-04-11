@@ -1,6 +1,10 @@
-body {
-  p {
-    color: blue;
-  }
-}
+// wanna reset?
+@import 'reset';
 
+@import 'bourbon/bourbon';
+
+// use this for debugging:
+// $visual-grid: true !global;
+@import 'neat/neat';
+
+* { box-sizing: border-box; }
